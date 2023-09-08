@@ -3,7 +3,7 @@ import Background from './Background';
 
 function App(){
     return (
-        <Background />
+        <Background className="bg-color"/>
     );
 }
 
