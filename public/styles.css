@@ -13,4 +13,15 @@
     width:904px;
     background-color:#FFF4F4;
     
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.checker{
+    height:113px;
+    width:113px;
+    background-color: antiquewhite;
 }
