@@ -9,8 +9,8 @@
     
 }
 .white{ 
-    height:904px;
-    width:904px;
+    min-height:400px;
+    min-width:400px;
     background-color:#FFF3E2
     
 
@@ -21,7 +21,7 @@
     grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .checker{
-    height:113px;
-    width:113px;
+    min-height:50px;
+    min-width: 50px;
     background-color: #C08261;
 }
