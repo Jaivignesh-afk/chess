@@ -1,27 +1,35 @@
-.bg-color{
-    
-    height:100vh;
-    width:100vw;
+body,html{
+    margin:0;
+    padding:0;
     background-color:#FFF7D4;
+}
+*{
+    box-sizing:border-box;
+}
+.bg-color{
+    height:100vh; 
     display:flex;
     align-items:center;
     justify-content: center;
-    
 }
 .white{ 
-    min-height:400px;
-    min-width:400px;
-    background-color:#FFF3E2
-    
-
+    height:90vmin;
+    width:90vmin;
+    transition: width 0.25s, height 0.25s; 
+    background-color:#FFF3E2;  
 }
 .grid-container{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;   
 }
 .checker{
-    min-height:50px;
-    min-width: 50px;
+    aspect-ratio:1/1;
     background-color: #C08261;
+}
+@media (768px<=width){
+    .white{
+        height:80vmin;
+        width:80vmin;
+    }
 }
