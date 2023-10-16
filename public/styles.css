@@ -26,7 +26,9 @@ body,html{
 .checker{
     aspect-ratio:1/1;
     background-color: #C08261;
+    font-size: 1rem;
 }
+
 @media (768px<=width){
     .white{
         height:80vmin;
